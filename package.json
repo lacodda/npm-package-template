@@ -1,0 +1,40 @@
+{
+  "name": "npm-package-template",
+  "version": "0.0.1",
+  "description": "Template for npm package with ES6 support",
+  "license": "MIT",
+  "main": "index.js",
+  "homepage": "https://github.com/lacodda/npm-package-template",
+  "author": {
+    "name": "Kirill Lahtachev",
+    "email": "lahtachev@gmail.com",
+    "url": "http://lacodda.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lacodda/npm-package-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lacodda/npm-package-template/issues"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "template"
+  ],
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+  }
+}
